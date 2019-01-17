@@ -55,4 +55,4 @@ for ip in ip_list:
 
 sorted_countries = sorted(countries.items(), key=operator.itemgetter(1))
 for value in sorted_countries:
-    print(value)
+    print("{} hits from country: {}".format(value[1],value[0]))
